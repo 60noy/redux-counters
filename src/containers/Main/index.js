@@ -30,6 +30,7 @@ class Main extends Component {
         <input type="text" value={this.state.input} onChange={this.handleTextChange} placeholder="name the counter" />
         {this.props.counters.length > 0 && this.props.counters.map((counter, index) =>
           (<Counter
+            key={counter.title}
             title={counter.title}
             value={counter.value}
             onRemove={() => this.props.removeCounter(index)}

@@ -1,4 +1,3 @@
-// import counter from './counter'
 import { ADD_COUNTER, REMOVE_COUNTER, INCREMENT_COUNTER, DECREMENT_COUNTER } from '../actions/index'
 
 const counters = (state = [], action) => {
