@@ -1,0 +1,18 @@
+.widget{
+  display: flex;
+  flex-direction: row;
+}
+.title{
+  font-size: 2.4em;
+  text-align: center;
+}
+.number{
+  font-size: 4em;
+  color: #454545;
+  transition: 2s;
+}
+.btn{
+  border: none;
+  background: none;
+  font-size: 2em;
+}

@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom'
 import { createStore } from 'redux'
 import { Provider } from 'react-redux'
 import reducers from './reducers/index'
-import registerServiceWorker from './registerServiceWorker'
+// import registerServiceWorker from './registerServiceWorker'
 import App from './App'
 import './index.css'
 
@@ -17,7 +17,7 @@ ReactDOM.render(
     <App />
   </Provider>,
    document.getElementById('root'))
-registerServiceWorker()
+// registerServiceWorker()
 
 store.subscribe(() => {
   console.log(store.getState())

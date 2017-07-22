@@ -15,8 +15,9 @@ export const decrementCounter = index => ({
   index,
 })
 
-export const addCounter = () => ({
+export const addCounter = title => ({
   type: ADD_COUNTER,
+  title,
 })
 
 export const removeCounter = index => ({
